@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <!--SECCION DE META DATA-->
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="imagen/WEB.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML, CSS, JavaScript</title>
+    <meta name="description" content="Pagina de Ejemplo para Proyecto Web Basico con HTML5, CSS,  Git y Git-Hub de IHC">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="ING. JUANCITO PEÑA Y Editado por ING. YONAR DUVAL">
+    <meta name="copyright" content="https://advisertecnology.com/" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+  </head>
+  <body>
+    <div class="container">
+       <!--ENCABEZADO-->
+        <header>
+          <h1>DUVAL-BLOG</h1>
+        </header> 
+      <!--NAVEGACION-->
+      <nav>
+ 
+        <div class="topnav" id="myTopnav">
+          <a href="index.html">inicio</a>
+          <a href="sobremi.html"class="active">Sobre Mi</a>
+          <a href="cursos.html">Cursos</a>
+          <a href="contactos.html">Contactos</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </nav>
+    <!--CONTENIDO-->
+    <section id="contenido">
+
+      <!--ARTICULOS-->
+      <article>
+        <h2>¿Quien Soy?</h2>
+
+     
+        <hr>
+        <p class="Articulo1">
+            Mi Nombre es Yonar Duval, Estudiante de ingenierira de sistemas y computacion en la universidad dominicana O&M, proveniente de la ciudad del seibo.
+            
+            Soy militar perteneciete a la fuerza aeria dominicana desde el año 2016 actualmente tengo el rango de cabo.
+            
+            Tambien me destaco en el area del deporte, me dedico al atletismos especificamente al salto de lonjitud donde eh te nido muy buenos resultados los cuales me han permitido ganar una beca completa en la unvesidad y para poder realizar mis estudios, y me eh coronado campeon de la juegos nacionales hermanas mirabal en 2018, 2 veces sub campeon universitario y sub campeon nacional en 2021.  </p>
+
+            <img class="foto" src="https://avatars.githubusercontent.com/u/83295104?s=400&u=854c787bcff28b1a6ca751b7614ece990caeb9e7&v=4" alt="Foto"><br>
+            <h3 class="sklill">Data Analyst | Xamarin | C# |XAML | Deportista | Blogger</h3>
+
+        <p class="Articulo1">
+          Soy un entusiasta de la ciencia de datos con un gran interés en el análisis de datos. Mi pasión por el Codigo y los Numeros
+          alimenta mi búsqueda de conocimiento y desarrollo personal en el uso y la aplicación del Analisis de Datos.
+          <br> <br>
+          Reconozco el valor de las tecnologías, y los aportes a las mejoras productivas, de negocios y educación que brindan.
+          Tengo mas de 10 años de experiencia trabajando con Sistemas de Información (CRM, y ERP), orientados a procesos
+          tecnológicos, administrativos, productivos y de marketing, he trabajado en implementaciones de Software para las mejores
+          tomas de decisiones con Inteligencia de Datos, desde el problema, los requerimientos hasta el testing, lanzamiento, y
+          entrenamiento del personal, y como ingeniero tengo experiencia y pasión por el Desarrollo Web Frontend / Backend con (HTML, CSS,
+          JavaScrip, PHP, Python, C#). 
+          <br> <br>
+          Conocimientos avanzados en Administracion de Redes y Cableado Estructurado, y manejo Sistemas Operativos Windows Server, Linux, Sistemas de
+          Telefonía IP (Grandstream, Issabel, Elastix), Ciberseguridad, Firewall, ACL, Proxy, P.SI., Routing y Switching, entre otras disciplinas. 
+        </p> 
+     
+          </article> 
+          <hr>
+          <div class="redes">
+            <h2>Mis Redes Sociales</h2>
+
+            <!-- Agregamos font awesome icons -->
+             <a href="#" class="fa fa-linkedin-square"  style="font-size:30px"></a>
+             <a href="#" class="fa fa-youtube-square" style="font-size:30px"></a>
+             <a href="#" class="fa fa-facebook-square" style="font-size:30px"></a>
+             <a href="#" class="fa fa-twitter-square" style="font-size:30px"></a>
+             <a href="#" class="fa fa-github-square" style="font-size:30px"></a>
+        
+          </div>
+      
+
+</section>
+        <!--PUBLICIDAD-->
+        <aside>
+          <h2>😁(La Victoria se Bebe en la Copa del Sacrificio)</h2>
+          <img src="imagen/yonar.jpg" alt="Foto"><br>
+          <br>
+          <img src="imagen/yonar1.jpg" alt="Foto"><br>
+          <br>
+          
+        
+          <br>
+          <h2>🌍La ruta para aprender Desarrollo Web</h2>
+          <iframe class="video"  src="https://www.youtube.com/embed/ExsGyZDBlJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          
+          
+          
+        
+        
+        </aside>
+        
+        <div class="clearfix" ></div>
+
+          <!--FOOTER O PIE DE PAGINA-->
+          <footer>
+            <p class="footer"> @ 2022 Creado Por Yonar Duval: <a href="https://www.instagram.com/duval.jump/" target="_blank" >Instagran</a></p>
+          </footer>
+        </div>
+
+     <!--FUNCION JAVASCRIPT PARA EL MENU-->
+
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+          </script>
+
+  </body>
+</html>
